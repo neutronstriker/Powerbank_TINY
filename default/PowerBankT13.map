@@ -124,7 +124,7 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x5a2
+.text           0x00000000      0x588
  *(.vectors)
  .vectors       0x00000000       0x1e c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr25/crttn45.o
                 0x00000000                __vectors
@@ -193,51 +193,51 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
                 0x00000054                __vector_8
                 0x00000054                __vector_14
                 0x00000054                __vector_10
- .text          0x00000056      0x484 PowerBankT13.o
-                0x00000438                __vector_1
+ .text          0x00000056      0x46a PowerBankT13.o
+                0x0000041e                __vector_1
                 0x00000068                shift0
-                0x000000d0                pOnAnim
+                0x000000b6                pOnAnim
                 0x0000007a                initshift1
-                0x0000022a                sleep
-                0x0000015a                pOffAnim
-                0x00000360                show_batt_level
-                0x00000230                chargingAnimation
-                0x000002fe                adc_read
-                0x00000330                batterystatus
+                0x00000210                sleep
+                0x00000140                pOffAnim
+                0x00000346                show_batt_level
+                0x00000216                chargingAnimation
+                0x000002e4                adc_read
+                0x00000316                batterystatus
                 0x00000056                shift1
-                0x000003e0                main
-                0x000001fc                show_warning
-                0x0000028a                __vector_2
-                0x000000c8                start_timer
-                0x000001e2                power_off
-                0x000003c2                power_on
+                0x000003c6                main
+                0x000001e2                show_warning
+                0x00000270                __vector_2
+                0x000000ae                start_timer
+                0x000001c8                power_off
+                0x000003a8                power_on
                 0x00000080                shift1_send
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_mulsi3.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodhi4.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_divmodhi4.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodsi4.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_copy_data.o)
- .text          0x000004da        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_clear_bss.o)
-                0x000004da                . = ALIGN (0x2)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_mulsi3.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodhi4.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_divmodhi4.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodsi4.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_copy_data.o)
+ .text          0x000004c0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_clear_bss.o)
+                0x000004c0                . = ALIGN (0x2)
  *(.text.*)
- .text.libgcc   0x000004da       0x32 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_mulsi3.o)
-                0x000004da                __mulsi3
- .text.libgcc   0x0000050c       0x28 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodhi4.o)
-                0x0000050c                __udivmodhi4
- .text.libgcc   0x00000534       0x26 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_divmodhi4.o)
-                0x00000534                __divmodhi4
-                0x00000534                _div
- .text.libgcc   0x0000055a       0x44 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodsi4.o)
-                0x0000055a                __udivmodsi4
- .text.libgcc   0x0000059e        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
- .text.libgcc   0x0000059e        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000059e        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_clear_bss.o)
-                0x0000059e                . = ALIGN (0x2)
+ .text.libgcc   0x000004c0       0x32 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_mulsi3.o)
+                0x000004c0                __mulsi3
+ .text.libgcc   0x000004f2       0x28 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodhi4.o)
+                0x000004f2                __udivmodhi4
+ .text.libgcc   0x0000051a       0x26 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_divmodhi4.o)
+                0x0000051a                __divmodhi4
+                0x0000051a                _div
+ .text.libgcc   0x00000540       0x44 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_udivmodsi4.o)
+                0x00000540                __udivmodsi4
+ .text.libgcc   0x00000584        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc   0x00000584        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000584        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_clear_bss.o)
+                0x00000584                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000059e        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
-                0x0000059e                exit
-                0x0000059e                _exit
+ .fini9         0x00000584        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
+                0x00000584                exit
+                0x00000584                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -256,11 +256,11 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000059e        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
+ .fini0         0x00000584        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a(_exit.o)
  *(.fini0)
-                0x000005a2                _etext = .
+                0x00000588                _etext = .
 
-.data           0x00800060        0x2 load address 0x000005a2
+.data           0x00800060        0x2 load address 0x00000588
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr25/crttn45.o
@@ -298,8 +298,8 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
  *(.bss*)
  *(COMMON)
                 0x00800063                PROVIDE (__bss_end, .)
-                0x000005a2                __data_load_start = LOADADDR (.data)
-                0x000005a4                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000588                __data_load_start = LOADADDR (.data)
+                0x0000058a                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800063        0x0
                 0x00800063                PROVIDE (__noinit_start, .)
@@ -368,18 +368,18 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
  .debug_pubnames
                 0x00000000      0x136 PowerBankT13.o
 
-.debug_info     0x00000000      0x8cc
+.debug_info     0x00000000      0x85e
  *(.debug_info)
- .debug_info    0x00000000      0x8cc PowerBankT13.o
+ .debug_info    0x00000000      0x85e PowerBankT13.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev   0x00000000      0x2bf
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x2bf PowerBankT13.o
 
-.debug_line     0x00000000      0x7ad
+.debug_line     0x00000000      0x773
  *(.debug_line)
- .debug_line    0x00000000      0x7ad PowerBankT13.o
+ .debug_line    0x00000000      0x773 PowerBankT13.o
 
 .debug_frame    0x00000000      0x130
  *(.debug_frame)
@@ -390,14 +390,14 @@ LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr25\libgcc.a
  .debug_str     0x00000000      0x1db PowerBankT13.o
                                 0x235 (size before relaxing)
 
-.debug_loc      0x00000000      0x30e
+.debug_loc      0x00000000      0x2b4
  *(.debug_loc)
- .debug_loc     0x00000000      0x30e PowerBankT13.o
+ .debug_loc     0x00000000      0x2b4 PowerBankT13.o
 
 .debug_macinfo
  *(.debug_macinfo)
 OUTPUT(PowerBankT13.elf elf32-avr)
 LOAD linker stubs
 
-.debug_ranges   0x00000000      0x228
- .debug_ranges  0x00000000      0x228 PowerBankT13.o
+.debug_ranges   0x00000000      0x1b0
+ .debug_ranges  0x00000000      0x1b0 PowerBankT13.o

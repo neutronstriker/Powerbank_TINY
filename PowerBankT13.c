@@ -120,7 +120,7 @@ void shift1_send(unsigned char data)
 
 	uint8_t val=0;
 
-	val = data<<1;// this is done because the QA output is not used instead output starts from
+//	val = data<<1;// this is done because the QA output is not used instead output starts from
 	//QB and 6 consecutive pins.
 
 	unsigned char i;
