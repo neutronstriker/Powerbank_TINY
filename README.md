@@ -1,8 +1,12 @@
 # Powerbank_TINY
 This contains the source code for Powerbank_EC project, written using AVR studio 4 and Winavr.
 
+
+
 The software is provided with The MIT License (MIT)
+
 Copyright (c) 2014 N.Srinivas
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
