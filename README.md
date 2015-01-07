@@ -1,7 +1,7 @@
 # Powerbank_TINY
 This contains the source code for Powerbank_EC project, written using AVR studio 4 and Winavr.
 
-
+The link to the board design of Powerbank_EC is https://github.com/neutronstriker/Powerbank_EC
 
 The software is provided with The MIT License (MIT)
 
